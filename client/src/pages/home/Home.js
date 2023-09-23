@@ -11,7 +11,7 @@ const Home = () => {
   const [loading,setLoading] = useState(true);
   const getCardData = async () => {
     axios
-      .get(`http://localhost:5000/books?page=${page}`)
+      .get(`/books?page=${page}`)
       .then((response) => {
         setData((prev) => [...prev, ...response.data]);
         setLoading(false);

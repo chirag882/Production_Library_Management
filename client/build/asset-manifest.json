@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3a98a4d.css",
-    "main.js": "/static/js/main.ddc34d7b.js",
+    "main.js": "/static/js/main.a862f9b6.js",
     "static/media/the-devil-to-pay-in-the-backlands.jpg": "/static/media/the-devil-to-pay-in-the-backlands.56014264c437e74a7fb8.jpg",
     "static/media/the-recognition-of-shakuntala.jpg": "/static/media/the-recognition-of-shakuntala.167c4cdd669395a30893.jpg",
     "static/media/beloved.jpg": "/static/media/beloved.357755333dede9f02347.jpg",
@@ -106,10 +106,10 @@
     "static/media/logo.png": "/static/media/logo.4f2629c57812cdf21105.png",
     "index.html": "/index.html",
     "main.e3a98a4d.css.map": "/static/css/main.e3a98a4d.css.map",
-    "main.ddc34d7b.js.map": "/static/js/main.ddc34d7b.js.map"
+    "main.a862f9b6.js.map": "/static/js/main.a862f9b6.js.map"
   },
   "entrypoints": [
     "static/css/main.e3a98a4d.css",
-    "static/js/main.ddc34d7b.js"
+    "static/js/main.a862f9b6.js"
   ]
 }

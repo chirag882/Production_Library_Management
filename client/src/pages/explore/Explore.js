@@ -17,7 +17,7 @@ const Explore = ({ type }) => {
 
   const getCardData = async () => {
     axios
-      .get(`http://localhost:5000/expore?genre=${type}`)
+      .get(`/expore?genre=${type}`)
       .then((response) => {
         setData(response.data);
       })

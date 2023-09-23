@@ -9,7 +9,7 @@ function Login() {
   const navigate = useNavigate();
   const onFinish = async (values) => {
     try {
-      const response = await axios.post("http://localhost:5000/login", values);
+      const response = await axios.post("/login", values);
       if (response.data.success) {
         localStorage.setItem("token", response.data.data);
         navigate("/");
@@ -22,7 +22,7 @@ function Login() {
   };
   const onFinishFromGoogle = async (values) => {
     try {
-      const response = await axios.post("http://localhost:5000/loginGoogle",values);
+      const response = await axios.post("/loginGoogle",values);
       if (response.data.success) {
         localStorage.setItem("token", response.data.data);
         navigate("/");

@@ -11,7 +11,7 @@ function ProtectedRoute(props) {
   const getUser = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/get-user-info-by-id",
+        "/get-user-info-by-id",
         { token: localStorage.getItem("token") },
         {
           headers: {

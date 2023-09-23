@@ -14,7 +14,7 @@ export default function Cart() {
   }
 
   const handleCheckOut = async() => {
-    await axios.post("http://localhost:5000/books/decrease",{
+    await axios.post("/books/decrease",{
       data : (state)
     })
     .then((response) => {
