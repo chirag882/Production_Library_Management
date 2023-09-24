@@ -64,3 +64,18 @@ exports.decreaseBook = async (req, res) => {
       });
     });
 };
+
+// getSearchResult
+exports.getSearchResult = async (req, res) => {
+  try {
+    const s = req.query.query;
+    const regex = new RegExp(s, 'i') // i for case insensitive
+    const response = await Book.find({title: {$regex: regex}})
+    res.status(200).send(response);
+  } catch (error) {
+    console.log(error);
+    res
+      .status(500)
+      .send({ message: "Cannot get books", success: false, error });
+  }
+};
