@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3a98a4d.css",
-    "main.js": "/static/js/main.a862f9b6.js",
+    "main.css": "/static/css/main.cedcaafd.css",
+    "main.js": "/static/js/main.b280bff1.js",
     "static/media/the-devil-to-pay-in-the-backlands.jpg": "/static/media/the-devil-to-pay-in-the-backlands.56014264c437e74a7fb8.jpg",
     "static/media/the-recognition-of-shakuntala.jpg": "/static/media/the-recognition-of-shakuntala.167c4cdd669395a30893.jpg",
     "static/media/beloved.jpg": "/static/media/beloved.357755333dede9f02347.jpg",
@@ -105,11 +105,11 @@
     "static/media/oedipus-the-king.jpg": "/static/media/oedipus-the-king.183e4db57c5469aa04c6.jpg",
     "static/media/logo.png": "/static/media/logo.4f2629c57812cdf21105.png",
     "index.html": "/index.html",
-    "main.e3a98a4d.css.map": "/static/css/main.e3a98a4d.css.map",
-    "main.a862f9b6.js.map": "/static/js/main.a862f9b6.js.map"
+    "main.cedcaafd.css.map": "/static/css/main.cedcaafd.css.map",
+    "main.b280bff1.js.map": "/static/js/main.b280bff1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a98a4d.css",
-    "static/js/main.a862f9b6.js"
+    "static/css/main.cedcaafd.css",
+    "static/js/main.b280bff1.js"
   ]
 }
